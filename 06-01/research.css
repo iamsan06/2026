@@ -1,0 +1,27 @@
+.card{
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(208, 220, 216);
+    margin: 20px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    
+}
+.research{
+    display: flex;
+    justify-content: center;
+    border: 5px dotted black;
+    background-color: cornflowerblue;
+}
+body {
+    background-color: beige;
+}
+#main-heading{
+    font-size: 24px;
+}
