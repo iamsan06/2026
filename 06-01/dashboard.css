@@ -1,0 +1,15 @@
+.product-card{
+    border: 2px solid black;
+    height: 200px;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: azure ;
+    text-align: center;
+    width: 400px;
+    font-size: 18px;
+    margin: 5px;
+    text-transform: capitalize;
+}
+body{
+    background-color: bisque;
+}
