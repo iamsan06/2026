@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chessboard</title>
+        <style>
+            table{
+                border-collapse: collapse;
+                border: 2px solid black;
+                margin: auto;
+
+            }
+            td {
+                border: 2px solid black;
+                height: 100px;
+                width: 100px;
+            }
+            .black{
+                background-color: black;
+            }
+        </style>
+        <script>
+            document.writeln("<table>");
+            for(var i=0;i<8;i++)
+            {
+                document.writeln("<tr>");
+                if(i%2==0)
+                {
+                    for(var j=0;j<4;j++)
+                    {
+                        document.writeln("<td class='black'></td>");
+                        document.writeln("<td></td>");
+                    }
+                }
+                else
+                {
+                    for(var j=0;j<4;j++)
+                    {
+                        document.writeln("<td></td>");
+                        document.writeln("<td class='black'></td>");
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <!--
+        <table>
+            <tr>
+                <td class="black"></td>
+                <td></td>
+                <td class="black"></td>
+                <td></td>
+                <td class="black"></td>
+                <td></td>
+                <td class="black"></td>
+                <td></td>
+            </tr>
+        </table>
+    -->
+    </body>
+</html>
