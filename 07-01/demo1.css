@@ -1,0 +1,17 @@
+
+.card{
+    height: 200px;
+    width: 400px;
+    border: 5px dotted green;
+    border-radius: 40px;
+    margin: auto;
+    background-color: burlywood;
+    text-align: center;
+}
+.details
+{
+    font-size: 20px;
+    line-height: 1.2;
+    font-family: sans-serif;
+    
+}
